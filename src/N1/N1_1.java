@@ -32,8 +32,10 @@ public class N1_1 {
 				+ "];[" + array[13]+ "];[" + array[14]+ "];[" + array[15]+ "];[" + array[16]+ "];[" + array[17]+ "];[" + array[18]+ "];[" + array[19]+"]");
 
 		for (i = 0; i < array.length - 1; i++ ) {
-			if (array[i]>array[i+1]) {
-				array[i] *=3;
+			if (array[i]!=0){
+				if (array[i+1]<0)
+				if (array[i]>0)
+				array[i]*=3;
 			}
 		}
 		System.out.println("Updated data on Array is: [" + array[1] + "];[" + array[2] + "];[" + array[3] + "];[" + array[4] + "];[" + array[5]
